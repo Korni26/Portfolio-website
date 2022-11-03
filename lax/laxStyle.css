@@ -1,0 +1,272 @@
+/* hovedfargen: #94BEE6 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+.welcome {
+    background-color: #94BEE6;
+    height: 100vh;
+    top: 0;
+}
+
+.welcome img {
+    background-color: #94BEE6;
+    width: 100vw;
+    margin-top: 20vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5vh;
+    font-family: "century gothic";
+}
+
+p {
+    font-family: "candara";
+}
+
+.about {
+    padding: 20px;
+}
+
+.about p {
+    font-family: "century gothic";
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    padding: 0 5px;
+    width: 100vw;
+    height: 10vh;
+    background-color: #94BEE6;
+    overflow: hidden;
+}
+
+a {
+    background-color: #000;
+    color: #94BEE6;
+    border-radius: 20%;
+    text-decoration: none;
+    text-transform: uppercase;
+    min-height: 10vh;
+    width: 30vw;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 14px;
+
+}
+
+a:hover {
+    background-color: #94BEE6;
+    color: #000;
+    transition: 1s;
+}
+
+
+.contact {
+    height: 50vh;
+    background-color: #000;
+}
+
+footer {
+    text-align: center;
+    background-color: #94BEE6;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 10vh;
+    height: 10vh;
+}
+
+/* kontakt informasjon */
+
+.social {
+    background-color: #000;
+    padding: 20px;
+}
+
+.social p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.icon {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0 10px;
+}
+
+li {
+    color: #fff;
+    list-style: disc;
+}
+
+li a {
+    color: #fff;
+    font-size: 13px;
+    font-family: candara;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width:768px) {
+
+    .menu p {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .welcome img {
+        margin: 15vh 10vw;
+        width: 80vw;
+    }
+
+    .contact {
+        padding: 50px 30px;
+    }
+
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .contact p {
+        font-size: 30px;
+    }
+
+    .contact a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .welcome {
+        background-color: #94BEE6;
+        height: 20vh;
+        width: 100vw;
+        margin-top: 0;
+        padding-top: 5vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+    .welcome img{
+        width: 0;
+    }
+
+    .text img{
+        width: 100vw;
+    }
+
+    h1{
+        margin-top: 30vh;
+    }
+
+    .about{
+        margin-top: 5vh;
+    }
+
+    a {
+        border-radius: 0;
+    } 
+
+    .social p{
+        font-size: 20px;
+    }
+
+    .contact{
+        min-height: 70vh;
+    }
+
+}
+
+table{
+    font-family: "candara"
+}
+
+.tabeller{
+    margin: 25vh auto 5vh auto;
+    padding: 0;
+}
+
+
+
+table,
+tr,
+th,
+td {
+    top: 32vh;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd){
+    background-color: #94BEE6;
+}
+
+tr,
+th,
+td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.lag{
+    margin: 5vh 10vw;
+    width: 80vw;
+}
+
+.fot{
+    min-height: 65vh;
+    position: relative;
+}
+
+.fot p{
+    bottom: 0px;
+}
+
+.team{
+    margin: 10vh auto 5vh auto;
+}
+
+@media(min-width:1400px){
+
+ 
+    .welcome{
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .contact{
+        min-height: 40vh;
+    }
+
+    .lag {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,201 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+
+*{
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 100vw;
+    height: 25vh;
+    border: 3px solid #000;
+    text-align: center;
+}
+
+.one{
+    background-color: #042326;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20vh;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.colorTwo{
+    background-color: #0A3A40;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F5959;
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D7373;
+}
+
+.four > p{
+    background-color: #1D7373;
+}
+
+#result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2vh;
+    background-color: #1D7373;
+}
+
+#result p{
+    padding-right: 1vh;
+}
+
+#result p:nth-child(1) {
+    background-color: #0A3A40;
+}
+
+#result p:nth-child(2) {
+    background-color: #0F5959;
+}
+
+#result p:nth-child(3) {
+    background-color: #1D7373;
+}
+
+#result p:nth-child(4) {
+    background-color: #107361;
+}
+
+#result p:nth-child(5) {
+    background-color: #149966;
+    padding-left: 1vh;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #107361;
+}
+
+.flexi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #107361;
+}
+
+.six{
+    background-color: #149966;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.finalScore{
+    background-color: #149966;
+    font-size: 3vh;
+}
+
+.five :nth-last-child(1){
+    margin-left: 0.5vw;
+}
+
+.kupong{
+    min-width: 1px;
+    width: 5vh;
+    height: 2vh;
+    margin: 0.5vw;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1D7373;
+}
+
+.yourNumber{
+    margin: 1vw 3vw;
+    background-color: #1D7373;
+}
+
+.tittle{
+    background-color: #1D7373;
+}
+
+.tittle p{
+    background-color: #1D7373;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 7vh;
+    line-height: 10vh;
+    color: #ddd;
+    background-color: #042326;
+}
+
+p{
+    font-size: 3vh;
+}
+
+button{
+    color: #fff;
+    background-color: darkblue;
+    text-transform: uppercase;
+    border: 0;
+    padding: 1%;
+    min-width: 15vh;
+    min-height: 8vh;
+    transition: 1s;
+    border: 3px solid darkblue;
+    font-size: 2vh;
+}
+
+button:hover{
+    color: darkblue;
+    background-color: #fff;
+    border: 3px solid darkblue;
+}
+
+.checkKupong{
+    margin-top: 1vh;
+}
+
+input{
+    min-width: 15vw;
+    min-height: 8vh;
+    font-size: 3vh;
+}
+
+.finalResult{
+    margin-top: 2vw;
+    text-transform: uppercase;
+    background-color: #149966;
+}
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="kickstarter-big-logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Kornel - Something</title>
+</head>
+
+<body>
+
+    <div class="important">
+        <a href="index.html" class="logo"></a>
+
+        <div class="menu-btn">
+            <div class="menu-btn-burger"></div>
+        </div>
+    </div>
+
+    <div class="centerTittle">
+        <h1 class="siteName">Game</h1>
+    </div>
+
+    <div class="menu">
+
+        <div class="row">
+            <a href="index.html" class="option">home</a>
+            <a href="prosjekt.html" class="option">task</a>
+            <a href="about.html" class="option">about</a>
+        </div>
+        <div class="row">
+            <a href="design.html" class="option">design</a>
+            <a href="portfolio.html" class="option">portfolio</a>
+            <a href="some.html" class="option now">game</a>
+        </div>
+        <div class="row">
+            <a href="IP.html" class="option">DRIFT</a>
+        </div>
+    </div>
+
+    <a href="index.html">
+        <div class="glow">
+
+            <div class="cube">
+                <div class="top"></div>
+                <div>
+                    <span style="--i:0"></span>
+                    <span style="--i:1"></span>
+                    <span style="--i:2"></span>
+                    <span style="--i:3"></span>
+                </div>
+            </div>
+
+        </div>
+    </a>
+
+
+
+
+    <section class="game">
+        <div class="tiitle">
+            <h1>Rock, Paper and Scissors</h1>
+        </div>
+
+        <div class="select">
+            <h3>please select your choice</h3>
+
+            <div class="imgFlex">
+                <img src="Pictures/kamien.jpg" alt="Rock" title="Rock" data-option="Rock">
+                <img src="Pictures/papier.jpg" alt="Paper" title="Paper" data-option="Paper">
+                <img src="Pictures/nozyczki.jpg" alt="Scissors" title="Scissors" data-option="Scissors">
+            </div>
+
+            <button class="startGame">Start Game</button>
+
+        </div>
+
+        <div class="results">
+
+            <div class="panelLeft">
+                <h3>Game`s result</h3>
+                <p>Your choice: <span data-summary="your-choice" class="spanResult"></span></p>
+                <p>AI choice: <span data-summary="ai-choice" class="spanResult"></span></p>
+                <p>Winner: <span data-summary="who-win" class="spanResult"></span></p>
+            </div>
+
+            <div class="panelRight">
+                <h3>Overall stats</h3>
+                <p class="numbers">Games: <span class="spanResult">0</span></p>
+                <p class="wins">Wins: <span class="spanResult">0</span></p>
+                <p class="losses">Losses: <span class="spanResult">0</span></p>
+                <p class="draws">Draws: <span class="spanResult">0</span></p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <div class="tittle">
+        <h1>contact me</h1>
+    </div>
+
+    <section class="contact">
+        <div class="social"><i class="fas fa-phone icon"></i>
+            <p>+47 400 56 256</p>
+        </div>
+        <div class="social"><i class="fas fa-at icon"></i>
+            <p>@kornel_low</p>
+        </div>
+        <div class="social"><i class="far fa-envelope icon"></i>
+            <p>thenorlow@gmail.com</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="under">kornel &#9824</p>
+    </footer>
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

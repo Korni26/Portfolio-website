@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.logo{
+    min-width: 20vw;
+    height: 10vh;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 50%;
+}
+
+.logg{
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid black;
+    border-bottom: 0px;
+    text-align: center;
+    line-height: 10vh;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 2vw;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.userInfo input{
+    margin: 10%;
+    border: 3px solid #000;
+    
+}
+
+.lunch{
+    margin: 1vw;
+}
+
+.valgType{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    margin-top: 20vh;
+    margin-bottom: 2vh;
+}
+
+.bestill{
+    min-width: 5vw;
+    height: 2vh;
+    text-align: center;
+    line-height: 1.5vh;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+}
+
+.bestill:hover{
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.pass{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-top: 1vw;
+}
+
+.pass a{
+    min-width: 5vw;
+    height: 2vh;
+    text-align: center;
+    line-height: 1.5vh;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+}
+
+.person{
+    margin-top: 1vw;
+}
+
+.mag{
+    margin-top: 1vw;
+}
+
+.take{
+    min-width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #000;
+}
+
+.take:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#ups{
+    margin-top: 2vh;
+}
+
+.comit{
+    margin-top: 5vh;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    margin-top: 10vw;
+    background-color: #000;
+}
+
+@media (max-width:820px){
+    .bar{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logg{
+        width: 20vw;
+    }
+
+    .logo{
+        width: 80vw;
+        height: 10vh;
+        background-image: url(logo.svg);
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+    }
+}
+
+/* #arrPrint{
+    
+} */

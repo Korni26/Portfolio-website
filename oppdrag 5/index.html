@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="box one">
+            <h1>BINGO</h1>
+        </div>
+
+        <div class="box two colorTwo">
+            <div class="mini">
+                <p class="two colorTwo">Velg hvor mange tall som skal generesres</p>
+            </div>
+            <div class="mini colorTwo">
+                <input type="number" min="5" max="1000" value="10" class="maxNr" id="javaScan">
+                <button class="button1">velg antall tall</button>
+            </div>
+        </div>
+
+        <div class="box three">
+            <button class="button2">trekk et tilfeldig tall</button>
+        </div>
+
+        <div class="box four">
+            <div class="tittle">
+                <p>dine tall:</p>
+            </div>
+            <div id="result">
+            </div>
+        </div>
+
+        <div class="box five">
+            <div class="flexi">
+                <input type="number" class="kupong inp1" min="1" max="1000">
+                <input type="number" class="kupong inp2" min="1" max="1000">
+                <input type="number" class="kupong inp3" min="1" max="1000">
+                <input type="number" class="kupong inp4" min="1" max="1000">
+                <input type="number" class="kupong inp5" min="1" max="1000">
+            </div>
+            <button class="checkKupong">sjekk kupong</button>
+        </div>
+
+        <div class="box six">
+            <p class="finalResult">ditt resultat:</p>
+            <div class="finalScore"></div>
+        </div>
+    </div>
+
+    <script src="redemption.js"></script>
+
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="bar">
+            <a href="index.html" class="logo"></a>
+            <a href="logg.html" class="logg">logg inn</a>
+    </div>
+
+    <section class="book">
+
+        <div class="valgType">
+
+            <h1>Fyll ut opplysningene!</h1>
+
+            <div class="userInfo">
+                <input class="input name" type="text" placeholder="Navn">
+                <input class="input number" type="number" placeholder="Tlf">
+                <input class="input adress" type="text" placeholder="Adresse">
+                <input class="input mail" type="text" placeholder="E-mail">
+            </div>
+            <h3 class="person">antall personer:</h3>
+            <select class="person mag" onchange="pris()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <h3 class="person">antall dager:</h3>
+            <input id="dager" type="number" onchange="pris()" placeholder="0" min="0" max="10">
+
+            <div class="lunch">
+                <h3>frokost?</h3>
+                <input type="radio" id="yes" name="frokost" value="1" checked="true" onchange="pris()">
+                <label for="yes">ja</label>
+
+                <input type="radio" id="no" name="frokost" value="0" onchange="pris()">
+                <label for="yes">nei</label>
+            </div>
+
+            <h3 class="person">billetter</h3>
+            <div class="check">
+                <input type="checkbox" id="dyreparken" value="1" name="pass" onchange="pris()" checked="true">
+                <label for="dyreparken">dyreparken</label>
+
+                <input type="checkbox" id="badeland" value="2" name="pass" onchange="pris()" checked="true">
+                <label for="badeland">badeland</label>
+
+            </div>
+
+            <div class="price">
+                <h1 id="sumUp">TOTAL: 0</h1>
+            </div>
+
+            <a class="take" onclick="take()" href="bestilling.html">Bestil nå!</a>
+        </div>
+
+
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
